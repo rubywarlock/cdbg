@@ -6,6 +6,7 @@ class DbgTest < Minitest::Test
   end
 
   def test_initial
+    # TODO: bump to rspec tests
     Dbg.log.title('this a test')
     Dbg.log.add('TEST').cyan.out
 
