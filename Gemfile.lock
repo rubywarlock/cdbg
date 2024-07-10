@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    Dbg (0.0.1)
+      rainbow
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    byebug (11.1.3)
+    rainbow (3.1.1)
+
+PLATFORMS
+  ruby
+  x86_64-linux
+
+DEPENDENCIES
+  Dbg!
+  bundler (~> 2.0)
+  byebug
+  rainbow
+
+BUNDLED WITH
+   2.5.15
