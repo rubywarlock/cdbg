@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    Dbg (0.0.1)
+    CDbg (0.0.1)
       rainbow
 
 GEM
@@ -15,10 +15,10 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  Dbg!
+  CDbg!
   bundler (~> 2.0)
   byebug
   rainbow
 
 BUNDLED WITH
-   2.5.15
+   2.4.22

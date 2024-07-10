@@ -1,24 +1,24 @@
 # Maintain your gem's version:
-require_relative "lib/dbg/version"
+require_relative "lib/c_dbg/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |spec|
-  spec.name          = "Dbg"
+  spec.name          = "CDbg"
   spec.version       = Version::VERSION
   spec.authors       = ["Vitaly Simakov"]
   spec.email         = ["vs.rubywarlock@gmail.com"]
 
   spec.summary       = %q{Colorized debugging and logong}
   spec.description   = %q{Colorized debugging and logong}
-  spec.homepage      = "https://github.com/rubywarlock/dbg"
+  spec.homepage      = "https://github.com/rubywarlock/cdbg"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.6.5")
 
-  spec.metadata["allowed_push_host"] = "https://github.com/rubywarlock/dbg"
+  spec.metadata["allowed_push_host"] = "https://github.com/rubywarlock/cdbg"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://github.com/rubywarlock/dbg"
-  spec.metadata["changelog_uri"] = "https://github.com/rubywarlock/dbg/CHANGELOG.md"
+  spec.metadata["source_code_uri"] = "https://github.com/rubywarlock/cdbg"
+  spec.metadata["changelog_uri"] = "https://github.com/rubywarlock/cdbg/CHANGELOG.md"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
   spec.require_paths = ['lib']
