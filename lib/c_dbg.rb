@@ -1,10 +1,10 @@
 require "rainbow"
 require 'pp'
 
-require_relative "dbg/version"
-require_relative "dbg/colors"
-require_relative "dbg/counter"
-require_relative "dbg/tools"
+require_relative "c_dbg/version"
+require_relative "c_dbg/colors"
+require_relative "c_dbg/counter"
+require_relative "c_dbg/tools"
 
 class CDbg
   attr_accessor :counter
