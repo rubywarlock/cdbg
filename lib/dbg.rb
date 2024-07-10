@@ -7,7 +7,7 @@ require_relative "dbg/counter"
 require_relative "dbg/tools"
 
 class Dbg
-  cattr_accessor :counter
+  attr_accessor :counter
 
   include Tools
 
